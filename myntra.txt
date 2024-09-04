@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Myntra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#men">Men</a></li>
+                <li><a href="#women">Women</a></li>
+                <li><a href="#kids">Kids</a></li>
+                <li><a href="#">Home & Living</a></li>
+                <li><a href="#">Beauty</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="http://logos-download.com/wp-content/uploads/2016/09/Myntra_logo.png" alt="Hero Image">
+            <div class="overlay">
+                <h2>Welcome to Myntra</h2>
+                <p>Your one-stop fashion destination.</p>
+                <a href="#men">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="category" id="men">
+            <h2>Men's Collection</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/12/12/193b3cc0-616c-4c38-a46e-a20cf85b75de1544606988474-1.jpg" alt="Men's Product 1">
+                    <p>Men's Product 1</p>
+                    <p>$39.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://static.magicpin.com/storage/blog/images/myntra-online-shopping-for-mens_Casual_Footwear.jpg" alt="Men's Product 2">
+                    <p>Men's Product 2</p>
+                    <p>$49.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://static.magicpin.com/storage/blog/images/myntra-online-shopping-for-mens_Accessories_Watch.jpg" alt="Men's Product 3">
+                    <p>Men's Product 3</p>
+                    <p>$29.99</p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="women">
+            <h2>Women's Collection</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.kd7DSlJ2hv72CR4VozfmwwHaHa&pid=Api&P=0&h=180" alt="Women's Product 1">
+                    <p>Women's Product 1</p>
+                    <p>$59.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://cdn.statically.io/img/www.shoppingmantras.com/wp-content/uploads/2021/06/Myntra-Lakme-Beauty-Products-and-Cosmetics-upto-60-Off-788x788.jpg?quality=90&f=auto" alt="Women's Product 2">
+                    <p>Women's Product 2</p>
+                    <p>$69.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13853602/2022/7/13/ed722e88-c397-487f-be0e-056d20970f841657702588300-WOMEN-MARKS-Green-Solid-Handheld-Bag-9401657702587785-1.jpg" alt="Women's Product 3">
+                    <p>Women's Product 3</p>
+                    <p>$79.99</p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="kids">
+            <h2>Kids' Collection</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/12399020/2020/10/10/5b5286b8-99f2-4ba7-9438-6e59e10d493c1602268408327TheMomsCoWhiteBabyHairCareBundle1.jpg" alt="Kids' Product 1">
+                    <p>Kids' Product 1</p>
+                    <p>$19.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://4.bp.blogspot.com/-jPYsqAwb7WY/W1l-4udmVzI/AAAAAAAAAOY/ZWvIaTAyNjkeSTUJzJqO9YzYaZSA3uijgCLcBGAs/s1600/BP.jpg" alt="Kids' Product 2">
+                    <p>Kids' Product 2</p>
+                    <p>$24.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://blog.myntra.com/wp-content/uploads/2023/08/Myntra_Kids_Rakhi_Fest____is_here_Adorable_festive_selection.jpg" alt="Kids' Product 3">
+                    <p>Kids' Product 3</p>
+                    <p>$29.99</p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Myntra. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
